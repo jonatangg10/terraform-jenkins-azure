@@ -2,15 +2,3 @@
 <p align="center"><b>Ejemplo practico de Terraform, Jenkins y Azure</b></p>
 <hr>
 <p align="center"><b>¡ Sigue los pasos en el archivo "Pasos a seguir.pdf" !</b></p>
-
-pipeline {
-    agent any
-
-    stages {
-        stage('Show Azure CLI Version') {
-            steps {
-                sh 'az --version'
-            }
-        }
-    }
-}
